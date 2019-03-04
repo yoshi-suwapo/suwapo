@@ -29,7 +29,7 @@ particlesJS('nskw',
         }
       },
       "color":{
-        "value":"#ffffff" //シェイプの色
+        "value":"#333333" //シェイプの色
       },
       "opacity":{
         "value":1, //シェイプの透明度
@@ -79,14 +79,14 @@ particlesJS('nskw',
 
 //--マウスオーバー時の処理----------
         "onhover":{
-          "enable":true, //マウスオーバーが有効か否か
+          "enable":false, //マウスオーバーが有効か否か
           "mode":"repulse" //マウスオーバー時に発動する動き(下記modes内のgrab、repulse、bubbleより選択)
         },
 //--------------------
 
 //--クリック時の処理----------
         "onclick":{
-          "enable":true, //クリックが有効か否か
+          "enable":false, //クリックが有効か否か
           "mode":"push" //クリック時に発動する動き(下記modes内のgrab、repulse、bubble、push、removeより選択)
         },
 //--------------------
