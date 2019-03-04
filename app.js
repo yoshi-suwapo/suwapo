@@ -57,7 +57,7 @@ particlesJS('nskw',
       "line_linked":{
         "enable":true, //線を表示するか否か
         "distance":150, //線をつなぐシェイプの間隔
-        "color":"#ffffff", //線の色
+        "color":"#000000", //線の色
         "opacity":0.4, //線の透明度
         "width":1 //線の太さ
       },
